@@ -24,6 +24,11 @@
                 templateUrl: 'apps/apps.view.html',
                 controllerAs: 'vm'
             })
+            .when('/home2', {
+                controller: 'home2Controller',
+                templateUrl: 'home2/home2.view.html',
+                controllerAs: 'vm'
+            })
             .when('/updates', {
                 controller: 'updatesController',
                 templateUrl: 'updates/updates.view.html',
