@@ -24,7 +24,7 @@
                 templateUrl: 'apps/apps.view.html',
                 controllerAs: 'vm'
             })
-            .when('/home2', {
+            .when('/websites', {
                 controller: 'home2Controller',
                 templateUrl: 'home2/home2.view.html',
                 controllerAs: 'vm'
