@@ -19,6 +19,11 @@
                 templateUrl: 'proxy/proxy.view.html',
                 controllerAs: 'vm'
             })
+            .when('/apps', {
+                controller: 'appsController',
+                templateUrl: 'apps/apps.view.html',
+                controllerAs: 'vm'
+            })
             .when('/updates', {
                 controller: 'updatesController',
                 templateUrl: 'updates/updates.view.html',
