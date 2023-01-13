@@ -1,3 +1,4 @@
+// anti proxy/VPN
 async function getProxy(options, callback) {
   if (typeof options == 'function') {callback = options; options = {}};
   
