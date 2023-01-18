@@ -14,6 +14,11 @@
                 templateUrl: 'home/home.view.html',
                 controllerAs: 'vm'
             })
+            .when('/cheats', {
+                controller: 'Cheat.Controller',
+                templateUrl: 'cheat/cheat.view.html',
+                controllerAs: 'vm'
+            })
             .when('/proxy', {
                 controller: 'proxyController',
                 templateUrl: 'proxy/proxy.view.html',
