@@ -329,7 +329,7 @@ body {
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #333;
-	background-color: #fff
+	background-color: #1a1e23
 }
 
 input,
@@ -5457,6 +5457,7 @@ a.list-group-item.active>.badge,
 }
 
 .jumbotron .container {
+  background-image: url(https://i.gifer.com/origin/e4/e4b1c7edba22e6f89895286b09c91224_w200.gif)
 	max-width: 100%
 }
 
